@@ -11,6 +11,7 @@
     <modules>
         <module>BIO</module>
         <module>NIO</module>
+        <module>AIO</module>
     </modules>
 
 </project>
