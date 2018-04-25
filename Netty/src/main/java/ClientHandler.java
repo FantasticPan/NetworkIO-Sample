@@ -25,6 +25,12 @@ public class ClientHandler extends ChannelInboundHandlerAdapter {
         this.ctx = ctx;
     }
 
+    /**
+     * 从服务器接收数据
+     * @param ctx 通道处理的上下文信息
+     * @param msg 接受的消息
+     * @throws Exception
+     */
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
         ByteBuf buf = (ByteBuf) msg;
